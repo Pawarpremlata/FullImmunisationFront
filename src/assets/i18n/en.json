@@ -1,0 +1,68 @@
+{
+    "MAIN":{
+        "TITLE": "Stupid App",
+        "UPDATE": "UPDATE",
+        "REGISTER": "REGISTER",
+        "SEARCH":"Search"
+    },
+    "SIDEBAR": {
+        "DASHBOARD": "Dashboard",
+        "IMMUNIZATION": "Immunization",
+        "USER_PROFILE": "User Profile",
+        "REGISTRATION": "Registration",
+        "CAMPAIGN":"Campaign"
+    },
+    "BCG1":{
+        "TITLE": "BCG 1",
+        "TIMING": "At Birth",
+        "NOTES": "Administer the vaccine to the newborn before discharging"
+    },
+    "OPV1":{
+        "TITLE": "OPV 1",
+        "TIMING": "At Birth",
+        "NOTES": "Administer the vaccine to the newborn before discharging"
+    },
+    "HEPB1":{
+        "TITLE": "HEP B1",
+        "TIMING": "At Birth",
+        "NOTES": "Administer the vaccine to the newborn before discharging"
+    },
+    "REGISTER":{
+        "FIRST NAME":"First Name",
+        "LAST NAME":"Last Name",
+        "AADHAR CARD NUMBER":"Aadhaar Card Number",
+        "MOBILE NUMBER":"Mobile Number",
+        "BLOOD GROUP":"Blood Group",
+        "EDUCATION":"Education",
+        "ILLITERATE":"Illiterate",
+        "PRIMARY":"Primary",
+        "MIDDLE SCHOOL":"Middle School",
+        "HIGH SCHOOL":"High School",
+        "GRADUATE":"Graduate",
+        "ECONOMIC STATUS":"Economic Status",
+        "ABOVE POVERTY LINE":"Above Poverty Line",
+        "BELOVE POVERTY LINE":"Above Poverty Line",
+        "INFORMATION NOT AVAILABLE":"Information Not Available",
+        "IS HIV POSITIVE":"Is HIV Positive?",
+        "HIV POSITIVE":"Hiv Positive",
+        "HIV NEGATIVE":"Hiv Negative",
+        "DATE OF BIRTH":"Date of Birth"
+    },
+    "IMMUNIZATION":{
+        "SEARCH":"Search",
+        "ID":"ID",
+        "FIRST NAME":"First Name",
+        "LAST NAME":"Last Name"    
+
+    },
+    "CAMPAIGN":{
+        "NAME":"Name",
+        "CAMPAIGN TYPE":"Campaign Type",
+        "MOBILE":"Mobile",
+        "FIXED":"Fixed",
+        "OUTREACH":"Outreach",
+        "ORGANIZER":"Organizer",
+        "START DATE":"Start Date",
+        "END DATE":"End Date"
+    }
+}

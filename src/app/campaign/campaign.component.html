@@ -1,0 +1,81 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <div class="card card-content">
+                    <div class=" card-nav-tabs">
+                        <div class="card-header" data-background-color="red">
+                            <div class="nav-tabs-navigation">
+                                <div class="nav-tabs-wrapper">
+                                    <ul class="nav nav-tabs" data-tabs="tabs">
+                                        <li class="active">
+                                            <a href="#mother" data-toggle="tab">
+                                                <i class="material-icons"></i>
+                                                Campaign
+                                                <div class="ripple-container"></div>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="mother">
+                                    <form (ngSubmit)="register()">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group form-black label-floating is-empty">
+                                                    <label class="control-label">{{'CAMPAIGN.NAME' | translate}}</label>
+                                                    <input type="text" class="form-control" id="Name" [(ngModel)]="model.name" name="Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group form-black label-floating is-empty">
+                                                    <label class="control-label">{{'CAMPAIGN.CAMPAIGN TYPE' | translate}}</label>
+                                                    <select class="form-control" id="campaign_type" [(ngModel)]="model.campaign_type" name="is_mobile" required>
+                                                        <option value="Mobile">{{'CAMPAIGN.MOBILE' | translate}}</option>
+                                                        <option value="Fixed">{{'CAMPAIGN.FIXED' | translate}}</option>
+                                                        <option value="Outreach">{{'CAMPAIGN.OUTREACH' | translate}}</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group form-black label-floating is-empty">
+                                                    <label class="control-label">{{'CAMPAIGN.ORGANIZER' | translate}}</label>
+                                                    <input type="text" class="form-control" id="organizer" [(ngModel)]="model.organizer_id" name="organizer" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group form-black label is-empty">
+                                                    <label class="control-label">{{'CAMPAIGN.START DATE' | translate}}</label>
+                                                    <input type="date" class="form-control" id="st_dt" [(ngModel)]="model.start_date" name="st_dt" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group form-black label is-empty">
+                                                    <label class="control-label">{{'CAMPAIGN.END DATE' | translate}}</label>
+                                                    <input type="date" class="form-control" id="end_dt" [(ngModel)]="model.end_date" name="end_dt" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-danger pull-right">{{ 'MAIN.REGISTER' | translate }}</button>
+                                        <div class="clearfix"></div>
+                                        <div>
+                                            <h2>Model:</h2>
+                                            {{ current }}
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
